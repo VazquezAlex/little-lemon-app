@@ -1,0 +1,32 @@
+
+.testimonial-item-container {
+    border-radius: 8px;
+    padding: 18px;
+    box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.2);
+}
+
+.testimonial-item-rating {
+    font-weight: bold;
+}
+
+.testimonial-item-user {
+    align-items: center;
+    display: flex;
+    margin: 12px 0;
+}
+
+.testimonial-item-user img {
+    border-radius: 6px;
+    width: 80px;
+}
+
+.testimonial-item-user span {
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.testimonial-user-review {
+    font-size: 0.8rem;
+}

@@ -1,9 +1,10 @@
 import Hero from "./Hero";
 import Specials from "./Specials";
+import Testimonials from "./Testimonails";
 
 /**
  * Main content for the page.
- * 
+ *
  * @returns { JSX.Element }
  */
 const Main = () => {
@@ -12,6 +13,7 @@ const Main = () => {
         <main>
             <Hero />
             <Specials />
+            <Testimonials />
         </main>
     );
 }

@@ -1,0 +1,17 @@
+
+.testimonials-container {
+    padding: 80px 10%;
+}
+
+.testimonials-container h2 {
+    text-align: center;
+}
+
+.testimonials-list {
+    display: flex;
+
+    & > * {
+        flex: 1;
+        margin: 0 12px;
+    }
+}
