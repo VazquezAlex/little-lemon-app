@@ -1,0 +1,22 @@
+
+.container {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+}
+
+.links > * {
+    margin-right: 12px;
+}
+
+.link {
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+}
