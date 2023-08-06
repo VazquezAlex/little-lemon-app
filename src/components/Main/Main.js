@@ -1,5 +1,6 @@
 import Hero from "./Hero";
 import Specials from "./Specials";
+import Story from "./Story";
 import Testimonials from "./Testimonails";
 
 /**
@@ -14,6 +15,7 @@ const Main = () => {
             <Hero />
             <Specials />
             <Testimonials />
+            <Story />
         </main>
     );
 }

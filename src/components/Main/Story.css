@@ -1,0 +1,39 @@
+
+.story {
+    padding: 80px 10%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.story-info, .story-images {
+    flex: 1;
+}
+
+.story-info h2, .story-info h5 {
+    margin: 0;
+}
+
+.story-info h2 {
+    color: #F4CE14;
+    font-size: 40px;
+}
+
+.story-info-description {
+    line-height: 1.5rem;
+}
+
+.story-images .story-img-1,
+.story-images .story-img-2 {
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    width: 200px;
+}
+
+.story-img-1 {
+    transform: translateY(20%);
+}
+
+.story-img-2 {
+    transform: translateX(-20%);
+}

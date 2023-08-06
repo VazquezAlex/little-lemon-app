@@ -1,10 +1,12 @@
 
 .testimonials-container {
+    background-color: #ececec;
     padding: 80px 10%;
 }
 
 .testimonials-container h2 {
     text-align: center;
+    margin-bottom: 36px;
 }
 
 .testimonials-list {
