@@ -1,0 +1,23 @@
+
+.specials-container {
+    padding: 24px 10%;
+}
+
+.specials-title {
+    display: flex;
+    align-items: center;
+}
+
+.specials-title h2 {
+    flex-grow: 1;
+    font-size: 40px;
+}
+
+.specials-list {
+    display: flex;
+    justify-content: space-evenly;
+
+    & > * {
+        margin: 0 10px;
+    }
+}

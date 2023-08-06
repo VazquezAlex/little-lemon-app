@@ -1,0 +1,52 @@
+
+.special-item {
+    max-width: 100%;
+
+    .info-container {
+        background-color: #eaeaea;
+        padding: 16px;
+    }
+}
+
+.special-item img {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.special-item .info-container .header {
+    margin: 14px 0;
+    display: flex;
+    align-items: center;
+
+    .dish-name {
+        flex-grow: 1;
+        font-size: 1.2rem;
+    }
+
+    .dish-price {
+        color: #ee9972;
+        font-weight: 500;
+    }
+}
+
+.special-item .info-container .dish-description {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.cta-special-item {
+    align-items: center;
+    color: black;
+    display: flex;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 32px;
+    text-decoration: none;
+}
+
+.cta-special-item img {
+    margin-left: 12px;
+    width: 24px;
+}

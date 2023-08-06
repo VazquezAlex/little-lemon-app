@@ -1,4 +1,5 @@
 import Hero from "./Hero";
+import Specials from "./Specials";
 
 /**
  * Main content for the page.
@@ -10,6 +11,7 @@ const Main = () => {
     return (
         <main>
             <Hero />
+            <Specials />
         </main>
     );
 }
