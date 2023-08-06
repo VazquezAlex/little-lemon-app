@@ -1,8 +1,9 @@
 
 footer {
+    background-color: #ececec;
     display: flex;
     justify-content: space-evenly;
-    padding: 24px 10%;
+    padding: 60px 10%;
 }
 
 .col {
@@ -13,7 +14,7 @@ footer {
 }
 
 .col-header {
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .footer-nav ul {
