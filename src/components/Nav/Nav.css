@@ -1,5 +1,5 @@
 
-.container {
+.nav-container {
     align-items: center;
     display: flex;
     height: 80px;
@@ -20,4 +20,23 @@
     color: #000;
     font-weight: 500;
     text-decoration: none;
+}
+
+@media (max-width: 700px) {
+
+    .nav-container {
+        display: block;
+        padding: 20px;
+    }
+
+    .nav-container .nav-logo-container {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-container .nav-logo-container img {
+        width: 200px
+    }
+
 }

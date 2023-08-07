@@ -21,3 +21,20 @@
         margin: 0 10px;
     }
 }
+
+@media (max-width: 768px) {
+
+    .specials-title {
+        display: block;
+        margin-bottom: 35px;
+    }
+
+    .specials-list {
+        display: block;
+
+        & > * {
+            margin-bottom: 12px;
+        }
+    }
+
+}

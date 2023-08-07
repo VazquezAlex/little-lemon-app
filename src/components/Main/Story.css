@@ -37,3 +37,15 @@
 .story-img-2 {
     transform: translateX(-20%);
 }
+
+@media (max-width: 768px) {
+
+    .story {
+        display: block;
+
+        & > * {
+            margin-bottom: 12px;
+        }
+    }
+
+}

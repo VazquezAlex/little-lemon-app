@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Nav.css';
 
 /**
@@ -8,12 +9,14 @@ import './Nav.css';
 const Nav = () => {
 
     return (
-        <div className = 'container'>
-            <img src = '/logo.svg' alt = 'Little Lemon Logo' />
+        <div className = 'nav-container'>
+            <div className = 'nav-logo-container'>
+                <img src = '/logo.svg' alt = 'Little Lemon Logo' />
+            </div>
             <nav>
                 <ul className = 'links'>
                     <li>
-                        <a href='#' className = 'link'>Home</a>
+                        <Link to = '/' className = 'link'>Home</Link>
                     </li>
                     <li>
                         <a href='#' className = 'link'>About</a>

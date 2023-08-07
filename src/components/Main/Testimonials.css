@@ -17,3 +17,15 @@
         margin: 0 12px;
     }
 }
+
+@media (max-width: 768px) {
+
+    .testimonials-list {
+        display: block;
+
+        & > * {
+            margin-bottom: 12px;
+        }
+    }
+
+}

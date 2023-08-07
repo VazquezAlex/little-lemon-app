@@ -35,3 +35,16 @@ footer {
 .footer-link:hover {
     filter: opacity(0.7);
 }
+
+@media (max-width: 700px) {
+    footer {
+        display: block;
+        justify-content: space-evenly;
+        padding: 60px 10%;
+    }
+
+    .col {
+        margin-top: 24px;
+    }
+
+}
