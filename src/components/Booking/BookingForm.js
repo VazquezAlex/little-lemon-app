@@ -108,7 +108,7 @@ const BookingForm = ({ availableTimes, formValues, setFormValues, onSubmit }) =>
                         )}
                     </select>
                 </FormField>
-                <input type="submit" value="Make Your reservation" />
+                <input type="submit" value="Make Your reservation" aria-label="On Click" />
             </form>
         </div>
     );
