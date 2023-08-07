@@ -19,7 +19,7 @@ const FormField = ({ children, label, htmlFor, hasError, errorMessage }) => {
             { children }
             {
                 hasError && errorMessage ?
-                    <p className = 'form-field-error' data-testid="error-message">{errorMessage}.</p> : null
+                    <p className = 'form-field-error' data-testid="error-message">{errorMessage}</p> : null
             }
         </div>
     );

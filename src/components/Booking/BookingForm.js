@@ -4,12 +4,15 @@ import FormField from './FormField';
 /**
  * Booking form component.
  *
+ * @param { string[] } availableTimes
+ * @param { Object } formValues
+ * @param { function } setFormValues
+ * @param { function } onSubmit
  * @returns { JSX.Element }
  */
 const BookingForm = ({ availableTimes, formValues, setFormValues, onSubmit }) => {
 
     const minimumDate = new Date().toISOString().split('T')[0];
-    const defaultTime = availableTimes[0];
     const minimumNumberOfGuests = 1;
     const maximumNumberOfGuests = 10;
     const occasions = ['Birthday', 'Anniversary'];
@@ -101,14 +104,19 @@ const BookingForm = ({ availableTimes, formValues, setFormValues, onSubmit }) =>
                 >
                     <select onChange = { handleInputChange } name = 'occasion' id="occasion">
                         <option hidden>Select an occasion</option>
-                        {occasions.map(occasion => 
+                        {occasions.map(occasion =>
                             <option data-testid="booking-occasion-option" key={occasion}>
                                 {occasion}
                             </option>
                         )}
                     </select>
                 </FormField>
-                <input type="submit" value="Make Your reservation" aria-label="On Click" />
+                <input
+                    type="submit"
+                    value = "Make Your reservation"
+                    aria-label="On Click"
+                    disabled = { !areAllFieldsValid() }
+                />
             </form>
         </div>
     );
