@@ -1,0 +1,10 @@
+
+.banner {
+    background: url('/public/restaurant.jpg');
+    height: 25vh;
+}
+
+.booking-container {
+    padding: 80px;
+    text-align: center;
+}
