@@ -1,0 +1,9 @@
+.form-field-label-container {
+    margin-bottom: 10px;
+}
+
+.form-field-error {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    color: red;
+}
