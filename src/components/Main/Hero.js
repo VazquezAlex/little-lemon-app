@@ -19,7 +19,7 @@ const Hero = () => {
                         on traditional recepies served with a modern twist.
                     </p>
                     <br />
-                    <Button text = 'Reserve a Table' url = '#' />
+                    <Button text = 'Reserve a Table' url = '/booking' />
                 </div>
             </div>
             <div className = 'hero-image'>

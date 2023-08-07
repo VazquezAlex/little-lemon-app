@@ -1,0 +1,22 @@
+
+.booking-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.booking-form {
+    display: grid;
+    max-width: 250px;
+    gap: 20px;
+    align-self: center;
+}
+
+.booking-form input,
+.booking-form select {
+    width: 250px;
+    padding: 10px 15px;
+    border: 1px solid #eaeaea;
+}
